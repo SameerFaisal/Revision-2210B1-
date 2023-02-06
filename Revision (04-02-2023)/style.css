@@ -1,0 +1,48 @@
+/* .btn{
+    margin-right: 100px;
+    border: 2px solid #FFD700 !important;
+    border-radius: 0px !important;
+}
+.nav-link{
+    margin-left: 100px;
+}
+img{
+    opacity: 0.5;
+}
+h5{
+    margin-bottom: 200px !important ;
+}
+.container-fluid{
+    background-color: black !important;
+}
+a{
+    color: white !important;
+} */
+#child-1,#child-2,#child-3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    margin-top: 100px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px groove greenyellow;
+    height: 500px;
+    background-image: url("https://wallpapercave.com/wp/wp3425556.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+p{
+   padding-top: 140px;
+   color: white;
+}
+#child-1:hover{
+    
+    background-image: url("https://static.dezeen.com/uploads/2019/03/bugatti-la-voiture-noire-car-design_dezeen_2364_sq-1-300x300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
